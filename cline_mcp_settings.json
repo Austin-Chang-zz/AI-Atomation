@@ -9,6 +9,12 @@
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
       }
+    },
+    "github.com/upstash/context7-mcp": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@upstash/context7-mcp@latest"],
+      "disabled": false,
+      "autoApprove": []
     }
   }
 }
